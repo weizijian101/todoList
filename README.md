@@ -1,0 +1,3 @@
+# todoList
+npm start
+localhost
