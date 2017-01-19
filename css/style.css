@@ -1,0 +1,123 @@
+#app{
+	width:40%;
+	margin:auto;
+	padding:4px;
+	border:1px solid #eee;
+}
+
+/*todoMain*/
+.main{
+	margin:0;
+	width:100%;
+	padding:0 auto;
+	background-color: #eee;
+	text-align: center;
+	border-radius: 5px;
+}
+#mainTitle{
+	font-size:44px;
+	text-align: center;
+}
+
+/*todoItem*/
+ul{
+	padding:0;
+}
+li{
+	margin:-1px;
+	display: block;
+	border:1px solid #ccc;
+	list-style: none;
+}
+.itemNoDone{
+	display: block;
+	background-color: #fff;
+	height:24px;
+	margin:0;
+	padding:0;
+	font-size:20px;
+}
+.itemNoDone:hover{
+	background-color: #C6E3CC;
+}
+.itemNoDone:hover .itemBtn{
+	display: inline;
+	float:right;
+	margin-right:30px;
+}
+.itemNoDone:after{
+	clear:both;
+	content: "";
+	display: block;
+}
+.itemNoDone .itemSpan{
+	line-height: 24px;
+	float:left;
+	margin-left: 30px;
+}
+.itemNoDone .itemBtn{
+	display: none;
+	float:right;
+	margin-right:30px;
+}
+.itemDone{
+	display: block;
+	background-color: #C6E3CC;
+	height:24px;
+	margin:0;
+	padding:0;
+	font-size:20px;
+}
+.itemDone .itemSpan{
+	line-height: 24px;
+	text-decoration: line-through;
+	float:left;
+	margin-left: 30px;
+}
+.itemDone .itemBtn{
+	display: none;
+}
+
+/*todoList*/
+ul{
+	width:75%;
+	display: block;
+	margin:auto;
+	padding:0;
+	border:1px solid black;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+/*todoFooter*/
+.todoFooter{
+	height:40px;
+	width:75%;
+	padding:0;
+	margin:0 auto;
+}
+.todoFooter:after{
+	clear:both;
+	content: "";
+	display: block;
+}
+#footerText{
+	height:24px;
+	padding:0;
+	margin:0;
+	display: block;
+	float:left;
+	width:70%;
+}
+#footerBtn{
+	overflow: hidden;
+	border:none;
+	border-radius: 8px;
+	line-height: 24px;
+	background-color: #3385FF;
+	height:24px;
+	width:20%;
+	padding:0;
+	margin:0;
+	float:right;
+}

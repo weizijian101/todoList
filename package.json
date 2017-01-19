@@ -1,0 +1,24 @@
+{
+  "name": "web-rec-2",
+  "version": "1.0.0",
+  "description": "react实例",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --peogress --colors --inline"
+  },
+  "keywords": [
+    "'"
+  ],
+  "author": "weizijian <weizijian2meituan.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
