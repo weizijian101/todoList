@@ -18,8 +18,8 @@ var TodoList = React.createClass({
 			var sum=datas.length;
 			var con = 0;
 			datas.map(function(data){if(data.isDone)con++});
-			if(sum==0){
-				return (<span>还没有任务哦，快来添加吧</span>)
+			if(sum==0)
+				return (<span>还没有任务哦，快来添加吧(抓紧！！！)</span>)
 			}
 			else if(sum!=con)
 			{
